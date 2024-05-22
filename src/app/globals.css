@@ -1,0 +1,26 @@
+nav ul {
+    margin: 0;
+    padding: 0.5em;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+li {
+    flex: auto;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: 0.5em 1em;
+    margin: .5em;
+}
+
+li.logo {
+    margin-right: auto;
+    order: 3;
+}
