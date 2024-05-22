@@ -6,7 +6,7 @@ export default function HomePage() {
         <h3>Breads</h3>
         <p>
           <img
-            src="images/bread.png"
+            src="/images/bread.png"
             alt="round loaf of bread on cutting board"
           />
           Our breads are made daily from highest-quality whole grain flour,
@@ -27,6 +27,7 @@ export default function HomePage() {
           are made from scratch each day. Stop by to see our seasonal muffin
           flavors!
         </p>
+        <p className="more"><a href="">Learn more about how make our muffins...</a></p>
       </main>
       <aside>
         <h2>Hours</h2>
